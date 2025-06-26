@@ -25,3 +25,7 @@ A secure and scalable To-Do list application built with **FastAPI**, **MongoDB**
 - **python-jose** – JWT token handling
 
 ---
+
+## Usage
+```bash
+uvicorn app.main:app --reload
