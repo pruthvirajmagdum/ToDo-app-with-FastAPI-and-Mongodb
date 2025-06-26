@@ -1,0 +1,72 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.pdb
+*.egg-info/
+*.egg
+
+# Byte-compiled and virtual environments
+.env/
+.venv/
+venv/
+ENV/
+env.bak/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Mac OS / Windows / Linux system files
+.DS_Store
+Thumbs.db
+
+# VS Code or JetBrains IDE settings
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# MongoDB local data dumps (if any)
+dump/
+
+# Environment variables and secrets
+.env
+*.env
+
+# Swagger cache (if generated manually)
+openapi.json
+docs/
+
+# Local testing DB files or lock files
+*.sqlite3
+*.db
+*.lock
+
+# Coverage and testing
+htmlcov/
+.tox/
+.coverage
+pytest_cache/
+.cache/
+
+# Build
+build/
+dist/
+*.egg-info/
+*.manifest
+*.spec
+
+# Uvicorn reload cache
+*.pid
+
+# Node-related (if using frontend or swagger UI custom)
+node_modules/
+package-lock.json
+
+# mypy / pyright / lint output
+.mypy_cache/
+.pyright/
